@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Contact</title>
+<link rel="icon" type="image/x-icon" href="afbeldingen/favicon.ico">
+</head>
+<body>
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="hobbys.html">Hobby's en Intresses</a>
+    <a href="ervaring.html">Ervaring</a>
+    <a href="cv.html">Cv</a>
+    <a href="contact.html">Contact</a> 
+  </div>
+  
+        <!--form-->
+        <div id="container">
+          <h1>contact</h1>
+          <div class="underline">
+          </div>
+          <form action="https://tm-statweb.be/forms.php" method="post" id="contact_form">
+            <div class="name">
+              <label for="name"></label>
+              <input type="text" placeholder="name" name="name" id="name" required>
+            </div>
+            <div class="email">
+              <label for="email"></label>
+              <input type="email" placeholder="e-mail" name="email" id="email" required>
+            </div>
+            <div class="subject">
+              <label for="subject"></label>
+              <select name="subject" id="subject" >
+                <option selected>Subject</option>
+                <option value="project">I'd like to start a project</option>
+                <option value="question">I'd like to ask a question</option>
+                <option value="proposal">I'd like to make a proposal</option>
+              </select>
+            </div>
+            <div class="message">
+              <label for="message"></label>
+              <textarea name="message" placeholder="I'd like to chat about" id="message" cols="30" rows="5" required></textarea>
+            </div>
+            <div class="submit">
+              <input type="submit" value="Send Message" id="form_button">
+            </div>
+          </form><!-- // End form -->
+</div>
+          <div>
+
+          <div class="row">
+            <div class="column">
+            <h1>Linkedin</h1>
+            <img src="afbeldingen/qrcode_www.linkedin.com.png" alt="" style="height:400px; width: 400px;">
+          </div>
+            
+            <div class="column">
+              <h1>google maps</h1>
+              <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79753.51899409297!2d5.00253787404897!3d51.34244043112764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6b5e2092cb971%3A0x62f9922a786ea8d2!2s2370%20Arendonk!5e0!3m2!1snl!2sbe!4v1698846560196!5m2!1snl!2sbe" width="400" height="400"></iframe>
+            </div>
+          </div>
+        </div><!-- // End #container -->
+        <div class="footer">
+          <p> Laten we samen de grenzen van digitale creativiteit verkennen!</p>
+        </div>
+          
+</body>
+</html>
